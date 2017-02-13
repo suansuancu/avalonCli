@@ -1,0 +1,373 @@
+.bd-content-detail {
+    position: relative;
+    border-radius: 8px;
+    background-color: #11242e;
+    box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.3);
+}
+.bd-content-button .edit-dispose{
+    cursor: pointer;
+}
+
+
+#domain-add-step1 div:nth-child(1)  .show-select-items{
+    z-index: 2;
+}
+#domain-add-step1 div select{
+    height: 30px;
+    width: 10px;
+    opacity: 0;
+}
+#domain-add-step1 div:nth-child(3) select{
+    /*width: 97px;*/
+}
+
+/*域名列表的样式*/
+#domain-list-table tbody tr td:last-child img{
+    cursor: pointer;
+    margin-right: 10px;
+}
+#domain-list-table tr td:nth-child(2) em{
+    color: #00b1ff;
+    cursor: pointer;
+}
+#domain-list-table tr td:nth-child(5){
+    color: #00b1ff;
+    cursor: pointer;
+}
+
+.bd-list-table tr td, .bd-list-table tr th {
+    padding-right: 2%;
+}
+.bd-list-table tr th:nth-child(1){
+    width: 6%;
+    padding-right: 0;
+    text-align: center;
+}
+.bd-list-table tbody tr td:nth-child(1){
+    width: 6%;
+    padding-right: 0;
+    text-align: center;
+}
+.bd-list-table tbody tr td:nth-child(2){
+    width: 12%;
+    max-width: 160px;
+}
+.bd-list-table tbody tr td:nth-child(3){
+    width: 15%;
+    max-width: 192px;
+}
+.bd-list-table tbody tr td:nth-child(4){
+    width: 10%;
+    max-width: 124px;
+}
+.bd-list-table tbody tr td:nth-child(5){
+    width: 6%;
+    max-width: 82px;
+}
+.bd-list-table tbody tr td:nth-child(6){
+    width: 6%;
+    max-width: 82px;
+}
+.bd-list-table tbody tr td:nth-child(7){
+    width: 6%;
+    max-width: 82px;
+}
+.bd-list-table tbody tr td:nth-child(8){
+    width: 8%;
+    max-width: 102px;
+    padding-right: 0;
+}
+
+.popup-layer-left .add #domains{
+    height: 169px;
+    margin-bottom: 14px;
+}
+.popup-layer-left .add #product_type, .popup-layer-left .add #source_tpl_id{
+    background-color: #18303c;
+    border: solid 1px #1f3848;
+    color: #d4d6d7;
+    letter-spacing: 0.7px;
+    pointer-events: none;
+}
+.popup-layer-left .add #domain_icp{
+    border: solid 1px #3a505e;
+    background-color: transparent;
+}
+.popup-layer-left #domain-add-step1{
+    margin: 0 79px 0 82px;
+}
+.form-horizontal .control-label{
+    text-align: left;
+    color: #c7d4da;
+    letter-spacing: .7px;
+    font-size: 12px;
+    padding-top: 0px;
+}
+
+.domain-add-step2-info{
+    margin: 50px 0 32px 51px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+#domain-add-step2{
+    padding-bottom: 0px;
+    margin-left:30px;
+    margin-right:30px;
+    background-color: #11242e;
+    min-height: 0px;
+}
+#domain-add-step2 tbody tr td:nth-child(1){
+    width: 43.9%;
+}
+#domain-add-step2 tbody tr td:nth-child(2){
+    width: 41%;
+}
+#domain-add-step2 tbody tr td:nth-child(3){
+    width: 15.1%;
+}
+#domain-add-step2 input{
+    border: 0px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: solid 1px #3a505e;
+}
+#domain-add-step2 tr td:nth-child(2) input{
+    width: 200px;
+}
+#domain-add-step2 tr td:nth-child(3) input{
+    width: 60px;
+}
+.bottom-line{
+    width: 100%;
+    height: 0px;
+    border-top: 2px solid #273a46;
+}
+.popup-layer-left .top{
+    margin-bottom: 72px;
+}
+/*creat dispose*/
+.creatDispose .top .title{
+    margin-left: 25px;
+}
+.creatDispose .title img{
+    margin-right: 17px;
+}
+.creatDispose .top span{
+    padding-right: 20px;
+    color: #d4d6d7;
+    margin-right: 20px;
+    border-right: 1px solid #ffffff;
+}
+
+/* 源站模板 */
+.common-form{
+    max-width: 628px;
+    margin: 0 auto;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: #122530;
+}
+.model-add-step3 .top{
+    margin-bottom: 10px;
+}
+
+#source-tpl-add{
+    color: #ffffff;
+}
+#source-tpl-add select {
+    height: 30px;
+    width: 10px;
+    display: none;
+}
+#source-tpl-add .title div:nth-child(1) > span:nth-of-type(2){
+    height: 50px;
+    line-height: 50px;
+}
+#source-tpl-add .title{
+    border: solid 1px #3a505e;
+    line-height: 50px;
+    height: 50px;
+}
+#source-tpl-add .operation {
+    margin-top: 30px;
+    text-align: center;
+}
+#source-tpl-add #list .form-group{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#source-tpl-add #list .has-error input{
+    border-color: #C6310E;
+}
+#source-tpl-add .has-error input {
+    border-color: #C6310E;
+}
+
+/*domain edit*/
+#domain-edit #edit_domain_routes{
+    pointer-events: none;
+    height: 30px;
+    width: 30px;
+    margin-top: 8px;
+
+}
+.edit #domain-edit{
+    margin: 44px 152px 0 152px;
+}
+.edit #domain-edit .control-label{
+    line-height: 50px;
+}
+.edit #domain-edit .form-control{
+    border: 0px;
+    border-bottom: solid 1px #3a505e;
+    background-color: transparent;
+    height: 43px;
+    line-height: 43px;
+    outline: none;
+    border-radius: 0;
+    width: 206px;
+    font-size: 12px;
+}
+.edit #domain-edit .div-disable{
+    height: 50px;
+    line-height: 50px;
+}
+.edit #domain-edit .form-group:last-child{
+    margin-top: 40px;
+}
+.disable-color{
+    /*color: rgba(255 ,255 ,255, .3)*/
+}
+.edit #domain-edit .show-select-items{
+    top: 7px;
+    z-index: 2;
+}
+.edit #domain-edit .show-select-items span{
+    padding-left: 10px;
+}
+.edit #domain-edit #template{
+    width: 117px;
+}
+.edit button[type='cancle']{
+    height: 32px;
+    background: transparent;
+}
+
+#edit_domain_routes{
+    z-index: -999;
+    opacity: 0;
+}
+#src-tpl-add-btn{
+    position: absolute;
+    top: 7px;
+    left: 140px;
+}
+
+.bd-confirm-alert-s1 .body > div {
+    margin: 0 auto;
+    width: 260px;
+}
+.bd-confirm-alert-s1 .body div:nth-child(1) .left{
+    width: 100px;
+    float: left;
+    line-height: 34px;
+}
+.bd-confirm-alert-s1 .body div:nth-child(1) .right{
+    float: left;
+    width: 160px;
+    max-width:160px;
+}
+.bd-confirm-alert-s1 .body select{
+    border-radius: 4px;
+    background-color: #18303c;
+    border: solid 1px #1f3848;
+}
+.bd-confirm-alert-s1 .show-select-items {
+    min-width: 100px;
+}
+
+/*重新修改的添加域名第二步中的表格*/
+#domain-add-step2 .form-group{
+    letter-spacing: 0.7px;
+    color: #c7d4da;
+}
+#domain-add-step2 #domain-add-step2-list .form-group:nth-child(odd){
+    background-color: #142732;
+}
+#domain-add-step2 .form-group label{
+    margin-bottom: 0px; 
+}
+#domain-add-step2 > .form-group:nth-child(1){
+    color: #fff;
+    letter-spacing: 0.7px;
+    height: 50px;
+    line-height: 50px;
+    /*text-align: center;*/
+    border: solid 1px #273a46;
+}
+#domain-add-step2 input{
+    letter-spacing: 0.7px;
+    color: #c7d4da;
+    font-size:12px;
+}
+#domain-add-step2 input[name^='test_url']{
+    max-width: 200px;
+}
+#domain-add-step2 input[name^='domain_note']{
+    max-width: 60px;
+}
+#domain-add-step2 .form-group > div:nth-child(1){
+    line-height: 50px;
+    height: 50px;
+    /*text-align: center;*/
+}
+
+#domain-add-step2-list .has-error .help-block {
+    margin-bottom: 10px;
+}
+
+#domain-add-step2-list .has-error input{
+    border-bottom-color: #C6310E;
+}
+
+/*域名详情*/
+#domain-detail .row{
+    height: 50px;
+    line-height: 50px;
+    color: #c7d4da;
+}
+#domain-detail .row >div:nth-child(1){
+    text-align: center;
+}
+
+/* title */
+.popup-layer-left .top .bd-src-tpl-title {
+    margin-left: 25px;
+    float: left;
+    margin-top: 68px;
+    min-width: 80px;
+    line-height: 30px;
+    font-size: 13px;
+    text-align: left;
+    color: #fff;
+}
+.popup-layer-left .top .bd-src-tpl-title >span{
+    cursor: pointer;
+}
+.popup-layer-left .top .bd-src-tpl-title img {
+    margin-top: -5px;
+    margin-right: 17px;
+}
+
+/*搜索样式覆盖*/
+.bd-content-button .bd-control-btn{
+    top: 36px;
+}
+
+label{
+    font-weight: normal;
+}

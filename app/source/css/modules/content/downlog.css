@@ -1,0 +1,111 @@
+.bd-content-detail {
+    position: relative;
+    border-radius: 8px;
+    background-color: #11242e;
+    box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.3);
+}
+.bd-list-table tbody tr td:nth-child(5){
+    color: #00b1ff;
+    cursor: pointer;
+}
+.bd-list-table {
+    min-height: 586px;
+    padding-bottom: 30px;
+}
+.bd-table-page {
+    padding-bottom: 30px;
+}
+
+/* 搜索栏中域名项的单个搜索 */
+.bd-search-items .commonPut {
+    min-width: 223px;
+    max-width: 300px;
+    position: static;
+}
+.bd-search-items .commonPut #select-domain{
+    max-width: 200px; 
+    margin-left: 10px; 
+    margin-right: 26px;
+}
+.bd-search-items .commonPut .item-list {
+    width: 100%;
+    height: 228px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: static;
+    margin-left: 20px;
+}
+.bd-search-items .commonPut .blank-mid {
+    margin-top: 38px;
+}
+.bd-search-items .commonPut li {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 183px;
+    max-width: 300px;
+}
+.bd-search-items .commonPut span {
+    margin-right: 30px;
+}
+.bd-search-items #domainSearchContent{
+    border-bottom: 1px solid #ffffff;
+    height: 30px;
+    line-height: 30px;
+    min-width: 130px;
+}
+
+.bd-list-table tr td, .bd-list-table tr th {
+    padding-right: 2%;
+}
+.bd-list-table tr th:nth-child(1){
+    width: 3%;
+    padding-right: 0;
+}
+.bd-list-table tbody tr td:nth-child(1){
+    width: 3%;
+    padding-right: 0;
+}
+.bd-list-table tbody tr td:nth-child(2){
+    width: 9%;
+    max-width: 123px;
+}
+.bd-list-table tbody tr td:nth-child(3){
+    width: 12%;
+    max-width: 246px;
+}
+.bd-list-table tbody tr td:nth-child(4){
+    width: 13%;
+    max-width: 180px;
+}
+.bd-list-table tbody tr td:nth-child(5){
+    width: 18%;
+    max-width: 246px;
+}
+.bd-list-table tbody tr td:nth-child(6){
+    width: 6%;
+    max-width: 80px;
+}
+.bd-list-table tr th:nth-child(7){
+    width: 4%;
+    max-width: 48px;
+    padding-right: 0;
+}
+.bd-list-table tbody tr td:nth-child(7){
+    width: 4%;
+    max-width: 48px;
+    padding-right: 0;
+}
+
+.bd-search-items .commonPut img {
+    margin: 0;
+}
+.bd-search-items .search-mid .bg-c-ff9900 {
+    background-color: #ff9900;
+}
+
+.bd-search-items .search-mid > div {
+    padding-left: 0;   
+}
+.bd-search-items .time {
+    min-width: 237px;
+}

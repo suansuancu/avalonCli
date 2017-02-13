@@ -1,0 +1,213 @@
+/* 整体背景色 */
+html, body {
+    background-color: #001B2B;
+}
+
+/* 页面上方导航背景色 */
+.main-top {
+    background-color: #082131;
+    box-shadow: 0 6px 56px 0 rgba(0, 1, 2, 0.23);
+}
+.main-top .user-dropdown-menu{
+    font-size: 12px;
+}
+
+/* 右侧content背景色 */
+.main-right {
+    background-color: #001B2B;
+}
+
+.main-right .bottom {
+    background-color: #001B2B;
+}
+
+.bd-content-detail {
+    background-color: #041C2B;
+}
+
+.bd-nav-menu {
+    background-color: #081729;
+}
+
+/* 左侧nav背景颜色 */
+.main-left {
+    background-color: #082131;
+}
+
+/* logo */
+.bigdata-logo {
+    background-color: #0A1B25;
+}
+
+/* 列表的整体样式 */
+.bd-list-table thead tr {
+    background-color: #071e2c;
+    border: solid 1px #153245;
+}
+
+.bd-list-table tbody tr:nth-child(even) {
+    background-color: #09202E;
+}
+
+.bd-list-table tbody tr:hover, .bd-list-table tbody tr:nth-child(even):hover {
+    background-color: #092435;
+}
+
+/* 弹层区域背景颜色 */
+.popup-layer-left {
+    background-color: rgba(7, 31, 45, .96);
+}
+
+/* 域名和源站模板中的选择框样式 */
+.show-select-items {
+    background-color: #0B2536;
+    border: 1px solid #172F3F;
+    min-width: 87px;
+}
+.show-select-items ul{
+    background-color: #0E2C42;
+    min-width: 87px;
+}
+.show-select-items ul li:hover{
+    background-color: #00b1ff;
+    color: #fff;
+}
+.show-select-items-s1 {
+    background-color: #a4e0fb;
+    border: 1px solid #ceedff;
+    color: #3d7892;
+    min-width: 87px;
+}
+.show-select-items-s1 ul{
+    background-color: #a4e0fb;
+    min-width: 87px;
+}
+.show-select-items-s1 ul li:hover{
+    background-color: #00b1ff;
+    color: #fff;
+}
+.bd-search-items .item-list{
+    background-color: #0B2536;
+}
+.bd-search-items .commonPut ul{
+    background-color: #0B2536;
+}
+.bd-search-items .commonPut li:hover{
+    background-color: #00b1ff;
+}
+.bd-search-items .item-list li:hover{
+    background-color: #00b1ff;
+}
+
+/* 所有的input&textarea的placeholder*/
+.place-color::-webkit-input-placeholder {
+    color: rgba(139, 145, 153, .5);
+}
+
+.place-color:-moz-placeholder {
+    color: rgba(139, 145, 153, .5);
+}
+
+.place-color::-moz-placeholder {
+    color: rgba(139, 145, 153, .5);
+}
+
+.place-color:-ms-input-placeholder {
+    color: rgba(139, 145, 153, .5);
+}
+
+/* 所有搜索nav上的样式 */
+.bd-search-items .bg-18303c {
+    background-color: #0B2536;
+    border: 1px solid #172F3F;
+}
+
+.bd-search-items #search-date {
+    background-color: #0B2536;
+    border: 1px solid #172F3F;
+}
+
+/* 报表区域样式 */
+.bd-query-detail {
+    background-color: #041C2B;
+}
+
+.bd-report-search .domain-search,.bd-report-search .area-search,.bd-report-search .isp-search{
+    background-color: #0B2536;
+    border: 1px solid #172F3F;
+}
+
+.bd-report-search #reportrange {
+    background-color: #0B2536;
+    border: 1px solid #172F3F;
+}
+.bd-content-button{
+    background-color: #041C2B;
+}
+.bd-query-detail .bd-content-button{
+    background-color: #071F2E;
+}
+
+/* 新增源站模板 */
+#source-tpl-add .title{
+    border-radius: 4px;
+    background-color: #071e2c;
+    border: solid 1px #153245;
+}
+.common-form #list .form-group:nth-child(odd){
+    background-color: #061c2a;
+}
+.common-form #list .form-group:nth-child(even){
+    background-color: #08202f;
+}
+.add .dispose-name{
+    background-color: rgba(7, 31, 45, .96);
+}
+
+/* 模板编辑 */
+#edit-dispose .title{
+    background-color: #071e2c;
+    border: solid 1px #153245;
+}
+#edit-dispose .list .form-group:nth-child(odd){
+    background-color: #061c2a;
+}
+#edit-dispose .list .form-group:nth-child(even){
+    background-color: #08202f;
+}
+
+/* 添加域名的第二步中的表格的样式 */
+#domain-add-step2 > .form-group:nth-child(1){
+    border-radius: 4px;
+    background-color: #071e2c;
+    border: solid 1px #153245;
+}
+#domain-add-step2 #domain-add-step2-list .form-group:nth-child(odd){
+    background-color: #061c2a;
+}
+#domain-add-step2 #domain-add-step2-list .form-group:nth-child(even){
+    background-color: #08202f;
+}
+
+/* 报表 */
+.bd-domain .bottom,.bd-area .right,.bd-isp .right {
+    background-color: #0C293C;
+}
+
+/* 域名 */
+.bd-domain-fail-text {
+    opacity: 0.3; 
+    color: #fff;
+}
+.bd-domain-fail-symbol{
+    color: #ff4600; 
+    margin-left: 3px;
+    opacity: 0.8;
+}
+
+/* postion */
+.bd-p-s1 {
+    position: absolute;
+    left: 44px;
+    top: 2px;
+}

@@ -1,0 +1,260 @@
+.bd-content-detail {
+    position: relative;
+    border-radius: 8px;
+    background-color: #11242e;
+    box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* 新增源站模板界面的修改源站模板的部分 */
+.popup-layer-left .top{
+    margin-bottom: 0px;
+}
+
+/* 主要列表界面表格百分比样式 */
+#dispose-list-table tbody tr td:last-child img{
+    cursor: pointer;
+    margin-right: 20px;
+}
+#dispose-list-table tbody tr td:nth-child(1) em{
+    color: #00b1ff;
+    cursor: pointer;
+}
+#dispose-list-table tr th:nth-child(1){
+    padding-left: 14%;
+}
+
+#dispose-list-table tbody tr td:nth-child(1){
+    width: 40.4%;
+    padding-left: 13.8%;
+}
+#dispose-list-table tbody tr.bd-hide td{
+    padding-left: 0;
+}
+#dispose-list-table tbody tr td:nth-child(2){
+    width: 36%;
+}
+#dispose-list-table tbody tr td:nth-child(3){
+    width: 23.6%;
+}
+
+#source-tpl-add{
+    margin: 0 auto;
+}
+#source-tpl-add .title div:nth-child(1) > span:nth-of-type(2){
+    height: 50px;
+    line-height: 50px;
+}
+#source-tpl-add .title{
+    border: solid 1px #3a505e;
+    line-height: 50px;
+    height: 50px;
+}
+#source-tpl-add .operation {
+    margin-top: 30px;
+    text-align: center;
+}
+#source-tpl-add #list .form-group{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#source-tpl-add #list .has-error input{
+    border-color: #C6310E;
+}
+
+/* form表单里元素的一般样式 */
+.common-form .form-control{
+    border: 0px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 0;
+    font-size: 12px;
+}
+.common-form{
+    max-width: 628px;
+    margin: 0 auto;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: transparent;
+}
+.common-form .form-group .selectDisposeType{
+    padding: 0px;
+}
+.common-form .js-srcTplEditRow {
+    line-height: 50px;
+}
+.common-form .js-srcTplEditRow:nth-child(even){
+    background-color: #142732;
+}
+.common-form .js-srcTplEditRow:nth-child(odd){
+    background-color: #122530;
+}
+.common-form .form-group select {
+    margin-left: 18px;
+    height: 28px;
+    width: 10px;
+    display: none;
+}
+
+#edit-dispose .title{
+    text-align: center;
+    border: solid 1px #273a46;
+    line-height: 54px;
+    border-radius: 4px 4px 0px 0px;
+}
+#edit-dispose .form-group input {
+    border-bottom: #fff;
+}
+#edit-dispose .newTplItem{
+    min-width: 664px;
+    position: relative;
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    background-color: #00b1ff;
+    transform: translate(-18px , 0px);
+    -webkit-transform: translate(-18px , 0px);
+    -moz-transform: translate(-18px , 0px);
+    -ms-transform: translate(-18px , 0px);
+}
+#edit-dispose .newTplItem input {
+    width: 126px;
+    border: 0;
+    border-bottom: 1px #a4e0fb solid;
+}
+#edit-dispose .newTplItem .has-error input {
+    border-color: #C6310E;
+}
+
+#edit-dispose .editTplItem{
+    padding-top: 10px;
+    padding-bottom: 11px;
+    border-radius: 6px;
+}
+#edit-dispose .editTplItem input {
+    width: 126px;
+    border: 0;
+    border-bottom: 1px #6F93A8 solid;
+}
+#edit-dispose .editTplItem .has-error input {
+    border-color: #C6310E;
+}
+#edit-dispose .editTplItem .btn-confirm-s1, #srcTplEditNameSubmit{
+    width: 52px;
+    line-height: 22px;
+    font-size: 12px;
+}
+#edit-dispose .editTplItem .btn-cancel-s1, #srcTplEditNameCancel{
+    width: 26px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #8b9199;
+}
+#edit-dispose .list{
+    text-align: center;
+}
+#edit-dispose .show-select-items, #edit-dispose .show-select-items ul{
+    min-width: 79px;
+}
+#edit-dispose .editTplItem .show-select-items img{
+    margin: 0 5px 0 1px;
+}
+
+.edit .top{
+    margin-bottom: 0px;
+}
+.edit #edit-dispose{
+    margin-top: 0px;
+}
+.edit .nav{
+    width: 100%;
+    padding-top: 40px;
+    height: 112px;
+}
+.edit .nav .dispose-name{
+    float: left;
+    margin-left: 196px;
+}
+.edit .nav .dispose-name span{
+    margin-right: 15px;
+}
+.edit .nav > img{
+    margin-left: 59px;
+    float: left;
+    padding-top: 2.5px;
+}
+.popup-layer-left .top .title{
+    width: 200px;
+    color: #fff;
+}
+
+.mx-w-175{max-width: 175px;}
+
+/*重写样式*/
+.show-select-items{
+    /*height: 30px;*/
+    min-width: 97px;
+    /*line-height: 30px;*/
+}
+#srcTplName{
+    line-height: 30px;
+}
+
+#editSrcTplName input{
+    width: 110px;
+    margin-right: 20px;
+    padding: 5px 5px 4px 5px;
+    border: 0;
+    border-bottom: 1px #6F93A8 solid;
+    background-color: transparent;
+    height: 30px;
+    text-align: center;
+}
+#editSrcTplName.has-error input {
+    border-color: #C6310E;
+}
+
+#src-tpl-edit-add button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    line-height: 34px;
+    padding: 0;
+    width: 26px;
+}
+
+.add .dispose-name .has-error input {
+    border-color: #C6310E;
+}
+/*搜索样式覆盖*/
+.bd-content-button .bd-control-btn{
+    top: 36px;
+}
+
+.bd-img-p-s2 {
+    position: absolute;
+    top: 19px;
+    left: 2px;
+}
+
+.bd-mx-w-col1{max-width: 80px; width: 13%; margin-left: 5%; margin-right: 3%;}
+.bd-mx-w-col2{max-width: 68px; width: 11%; margin-right: 4%;}
+.bd-mx-w-col3{max-width: 163px; width: 26%; margin-right: 2%;}
+.bd-mx-w-col4{max-width: 90px; width: 14%; margin-right: 5%;}
+.bd-mx-w-col5{max-width: 90px; width: 14%;}
+
+.bd-add-mx-w-col1{width: 88px; height:34px; margin-left: 7%; margin-right: 2%;}
+.bd-add-mx-w-col2{width: 88px; height:34px; margin-right: 4%;}
+.bd-add-mx-w-col3{max-width: 124px; width: 19%; margin-right: 2%;}
+.bd-add-mx-w-col4{max-width: 124px; width: 19%; min-height: 34px; margin-right: 4%;}
+.bd-add-mx-w-col5{max-width: 64px; width: 10%;}
+
+.bd-edit-mx-w-col1{width: 78px; height:34px; margin-left: 6%; margin-right: 2%;}
+.bd-edit-mx-w-col2{width: 78px; height:34px; margin-right: 6%;}
+.bd-edit-mx-w-col3{max-width: 124px; margin-right: 2%;}
+.bd-edit-mx-w-col4{width: 124px; min-height: 34px; margin-right: 2%;}
+.bd-edit-mx-w-col5{max-width: 95px; }
+
+label[class~="bd-src-tpl-disable"], div[class~="bd-src-tpl-disable"]{
+    opacity: 0.3;
+}

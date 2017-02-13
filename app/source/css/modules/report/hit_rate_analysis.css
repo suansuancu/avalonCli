@@ -1,0 +1,47 @@
+.bd-query-detail {
+    position: relative;
+    min-height: 630px;
+    border-radius: 8px;
+    background-color: #0d1f29;
+    box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.29);
+}
+.bd-report-search .domain-search, .bd-report-search .isp-search, .bd-report-search .area-search{
+    margin-left: 0px;
+}
+.bd-content-button > .right {
+    width: 100%;
+    padding-right: 0px;
+}
+.bd-report-search .domain-search{
+    margin-left: 74px;
+}
+.bd-report-search em{
+    margin-right:5px;
+}.bd-query-detail {
+     position: relative;
+     min-height: 630px;
+     border-radius: 8px;
+     background-color: #0d1f29;
+     box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.29);
+ }
+.bd-report-search .show-arrow {
+    position: static;
+    top: 0;
+    right: 0;
+    float: none;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+#hitRate-graph{
+    height:470px;
+    margin: 30px 50px;
+}
+
+.bd-nav-menu {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.bd-nav-menu .nav-menu-childs div{
+    width: 90px;
+    margin-right: 25px;
+}

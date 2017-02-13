@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="8px" height="11px" viewBox="0 0 8 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="添加模版" transform="translate(-142.000000, -73.000000)" fill="#8B9199">
+            <g id="添加域名" transform="translate(117.000000, 0.000000)">
+                <g id="新增源站模版" transform="translate(25.000000, 68.000000)">
+                    <g id="返回">
+                        <path d="M1.85054443,8.84773579 L4.80034251,6.38957073 C6.17150159,5.24693816 7.28304564,5.78283103 7.28304564,7.54777947 L7.28304564,14.2855307 C7.28304564,16.0678243 6.18247039,16.5955126 4.80034251,15.4437394 L1.85054443,12.9855743 C0.479385357,11.8429418 0.468416554,9.99950903 1.85054443,8.84773579 Z" id="Triangle"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

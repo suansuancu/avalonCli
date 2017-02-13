@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="135px" height="36px" viewBox="0 0 135 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="9" cy="25" r="9"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.11608356 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="添加域名第一步" transform="translate(-393.000000, -56.000000)">
+            <g id="添加域名" transform="translate(118.000000, 0.000000)">
+                <g id="域名01" transform="translate(82.000000, 55.000000)">
+                    <g id="Group-8" transform="translate(196.000000, 0.000000)">
+                        <polygon id="Rectangle-2" fill="#EFEFEF" points="14 24 124 24 124 27 14 27"></polygon>
+                        <rect id="Rectangle-2-Copy" fill="#00B1FF" x="14" y="24" width="60" height="3"></rect>
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <circle id="Oval" fill="#00B1FF" cx="9" cy="25" r="4"></circle>
+                        <circle id="Oval" fill="#EFEFEF" cx="127.5" cy="25.5" r="4.5"></circle>
+                        <text id="01" font-family="HiraginoSansGB-W3, Hiragino Sans GB" font-size="12" font-weight="300" letter-spacing="0.696239233" fill="#00B1FF">
+                            <tspan x="32" y="11">01</tspan>
+                        </text>
+                        <text id="02" font-family="HiraginoSansGB-W3, Hiragino Sans GB" font-size="12" font-weight="300" letter-spacing="0.696239233" fill="#D4D6D7">
+                            <tspan x="91" y="11">02</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

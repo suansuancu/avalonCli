@@ -1,0 +1,184 @@
+.bd-query-detail {
+    position: relative;
+    min-height: 630px;
+    border-radius: 8px;
+    background-color: #0d1f29;
+    box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.29);
+}
+.bd-report-search .domain-search, .bd-report-search .isp-search, .bd-report-search .area-search {
+    margin-left: 0px;
+}
+.bd-content-button > .right {
+    width: 100%;
+    padding-right: 0px;
+}
+.bd-report-search .domain-search {
+    margin-left: 74px;
+}
+.bd-report-search em {
+    margin-right:5px;
+}
+.bd-report-search .show-arrow {
+    position: static;
+    top: 0;
+    right: 0;
+    float: none;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+#bd-bwAnalysis-graph {
+    height: 600px;
+    position: relative;
+}
+#bwAnalysis-graph {
+    height:460px;
+    margin: 30px 50px;
+}
+
+/* 无数据时候显示空 */
+.bd-report-mid {
+    display: none;
+    height: 40px;
+    background-color: #061826;
+    width: 100%;
+}
+.bwAnaly-info {
+    width: 90.5%;
+    height: 80px;
+    float: right;
+    margin-right: 50px;
+    border-radius: 8px;
+    background-color: #071f2e;
+    border: solid 1px #072e48;
+    margin-bottom: 50px;
+}
+#bd-bwAnalysis-table .bd-list-table {
+    min-height: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+}
+#bd-bwAnalysis-table {
+    margin: 50px;
+    display: none;
+}
+#table-domainRank {
+    width: 57.3%;
+    height: 287px;
+    border-radius: 4px;
+
+    float: left;
+    display: inline-block;
+}
+#table-areaIspRank {
+    width: 36.4%;
+    height: 287px;
+    float: right;
+    display: inline-block;
+    border-radius: 4px;
+}
+.bwAnaly-info > .left , .bwAnaly-info > .right {
+    display: inline-block;
+    float: left;
+    transform: translate(0,50%);
+    -webkit-transform: translate(0,50%);
+    -ms-transform: translate(0,50%);
+    -moz-transform: translate(0,50%);
+    -o-transform: translate(0,50%);
+}
+.bwAnaly-info > .left {
+    width: 62%;
+    height: 40px;
+}
+.bwAnaly-info > .right {
+    width: 38%;
+    height: 40px;
+}
+.bwAnaly-info > .left {
+    border-right: solid 1px #072e48;
+}
+.bwAnaly-info .col-md-4, .bwAnaly-info .col-md-6 {
+    padding-left:40px;
+}
+.bwAnaly-info > .left .row:nth-child(1) , .bwAnaly-info > .right .row:nth-child(1) {
+    letter-spacing: 1.8px;
+    color: #8fa7b3;
+    font-size: 12px;
+    margin-top: -5px;
+}
+.bwAnaly-info > .left .row:nth-child(2) , .bwAnaly-info > .right .row:nth-child(2) {
+    font-size: 15px;
+    letter-spacing: 1.9px;
+    color: #00adf8;
+    margin-top: 5px;
+}
+.bwAnaly-info > .right .row:nth-child(2) {
+    color: #ffb72c;
+}
+
+.bd-nav-menu {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.bd-nav-menu .nav-menu-childs div {
+    width: 90px;
+    margin-right: 25px;
+}
+
+.bd-query-detail >.bd-list-table {
+    height: 0px;
+    max-height: 525px;
+}
+.for-table-mask {
+    background-color: rgba(4,26,40,0.94);
+}
+.table-hasmore {
+    right: 0;
+}
+
+/* 修改表格样式 */
+#table-domainRank .rep-tableTit div:nth-child(1), #table-domainRank .rep-tableList .rep-tableList-row div:nth-child(1),
+.bd-pop-domainRank .rep-tableTit div:nth-child(1), .bd-pop-domainRank .rep-tableList .rep-tableList-row div:nth-child(1) {
+    width: 8%;
+    margin-left: 4.5%;
+    text-align: center;
+}
+#table-domainRank .rep-tableTit div:nth-child(2), #table-domainRank .rep-tableList .rep-tableList-row div:nth-child(2),
+.bd-pop-domainRank .rep-tableTit div:nth-child(2), .bd-pop-domainRank .rep-tableList .rep-tableList-row div:nth-child(2) {
+    width: 35%;
+    margin-left: 2.3%;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#table-domainRank .rep-tableTit div:nth-child(3), #table-domainRank .rep-tableList .rep-tableList-row div:nth-child(3),
+.bd-pop-domainRank .rep-tableTit div:nth-child(3), .bd-pop-domainRank .rep-tableList .rep-tableList-row div:nth-child(3) {
+    margin-left: 2.4%;
+    width: 17%;
+    text-align: right;
+}
+#table-domainRank .rep-tableTit div:nth-child(4), #table-domainRank .rep-tableList .rep-tableList-row div:nth-child(4),
+.bd-pop-domainRank .rep-tableTit div:nth-child(4), .bd-pop-domainRank .rep-tableList .rep-tableList-row div:nth-child(4) {
+    margin-left: 3.8%;
+    width: 22%;
+    text-align: center;
+}
+
+#table-areaIspRank .rep-tableTit div:nth-child(1), #table-areaIspRank .rep-tableList .rep-tableList-row div:nth-child(1),
+.bd-pop-areaIspRank .rep-tableTit div:nth-child(1), .bd-pop-areaIspRank .rep-tableList .rep-tableList-row div:nth-child(1) {
+    width: 13%;
+    margin-left: 9.4%;
+    text-align: center;
+}
+#table-areaIspRank .rep-tableTit div:nth-child(2), #table-areaIspRank .rep-tableList .rep-tableList-row div:nth-child(2),
+.bd-pop-areaIspRank .rep-tableTit div:nth-child(2), .bd-pop-areaIspRank .rep-tableList .rep-tableList-row div:nth-child(2) {
+    width: 26%;
+    margin-left: 5.7%;
+    text-align: center;
+}
+#table-areaIspRank .rep-tableTit div:nth-child(3), #table-areaIspRank .rep-tableList .rep-tableList-row div:nth-child(3),
+.bd-pop-areaIspRank .rep-tableTit div:nth-child(3), .bd-pop-areaIspRank .rep-tableList .rep-tableList-row div:nth-child(3) {
+    width: 27%;
+    margin-left: 3.7%;
+    text-align: right;
+}

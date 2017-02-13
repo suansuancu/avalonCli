@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.100000001">
+        <g id="home" transform="translate(-772.000000, -198.000000)">
+            <g id="03" transform="translate(772.000000, 120.000000)">
+                <g id="Group-8" transform="translate(2.000000, 95.000000)">
+                    <path d="M16.2466567,13.1252508 L27.8808869,5.60317726" id="Line-Copy-32" stroke="#8B9199" stroke-width="5" stroke-linecap="square" transform="translate(22.063772, 9.364214) scale(-1, 1) translate(-22.063772, -9.364214) "></path>
+                    <path d="M44.6837788,0.319388131 L29.8367796,13.1272459" id="Line-Copy-33" stroke="#8B9199" stroke-width="5"></path>
+                    <path d="M0,16.5388665 L14.2233123,6.6777592" id="Line" stroke="#8B9199" stroke-width="5"></path>
+                    <ellipse id="Oval-54-Copy" fill="#3C3C3C" transform="translate(29.398395, 13.662542) scale(-1, 1) translate(-29.398395, -13.662542) " cx="29.3983952" cy="13.6625418" rx="3.54085267" ry="3.76103679"></ellipse>
+                    <ellipse id="Oval-54" fill="#3C3C3C" cx="16.2466567" cy="5.60317726" rx="3.54085267" ry="3.76103679"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

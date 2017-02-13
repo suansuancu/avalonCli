@@ -1,0 +1,169 @@
+.bd-query-detail {
+    position: relative;
+    min-height: 630px;
+    border-radius: 8px;
+    background-color: #0d1f29;
+    box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.29);
+}
+
+.bd-content-button{
+    background-color: #11242e;
+}
+
+.bd-content-button .right{
+    width: 100%;
+    padding-right: 0px;
+}
+
+#bd-compare-graph {
+    width: 100%;
+    height: 400px;
+    color: #cbe3ff;
+    margin-top: 50px;
+}
+#bd-compare-graph .left{
+    width: 79.3%;
+    height: 400px;
+    float: left;
+}
+#bd-compare-graph .right{
+    width: 20.7%;
+    height: 400px;
+    float: right;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+}
+#bd-compare-graph .right ul{
+
+    margin-bottom: 36px;
+    letter-spacing: 1.9px;
+    text-align: left;
+}
+#bd-compare-graph .right ul li{
+    line-height: 29px;
+    height: 29px;
+    font-size: 12px;
+}
+#bd-compare-graph .right ul li:nth-child(2){
+    color: #00b1ff;
+    font-size: 15px;
+}
+#bd-compare-graph .right  ul:nth-child(1){
+    margin-top: 14px;
+}
+.splitHr{
+    margin-top: 70px;
+    height: 2px;
+    border:none;
+    border-top:2px solid #273a46;
+}
+.bd-report-search em {
+    margin-right: 5px;
+}
+.bd-report-search .firm-search{
+    margin-left: 0;
+}
+#compare-graph{
+    width: 100%;
+    height: 400px;
+    padding-right: 100px;
+}
+#bd-compare-table{
+    margin: 50px auto;
+    width: 100%;
+
+}
+#bd-compare-table .bd-list-table{
+     min-height: 0px;
+}
+#compare-table{
+    margin: 0 70px;
+}
+#compare-table table{
+    color: #ffffff;
+}
+#compare-table table tr:nth-child(1){
+    background-color: #071e2c;
+    border: solid 1px #153245;
+}
+.bd-query-detail .bottom-text{
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    text-align: center;
+
+}
+/* 厂商选择 */
+.firm-search #firm{
+
+    pointer-events: none;
+    opacity: 0;
+    height: 40px;
+}
+.show-select-items{
+    height: 40px;
+    position: relative;
+    float: left;
+    min-width: 160px;
+    line-height: 40px;
+    color: #fff;
+
+}
+.firm-search{
+    width: 170px;
+    float: left;
+}
+.bd-report-search #reportrange{
+    float: left;
+}
+.firm-search .item-list{
+    width: 160px;
+}
+.bd-report-search .show-select-items{
+    min-width: 160px;
+}
+.bd-report-search .show-arrow{
+    right: 5px;
+}
+
+.bd-report-search .show-arrow {
+    position: static;
+    top: 0;
+    right: 0;
+    float: none;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+.bd-nav-menu {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.bd-nav-menu .nav-menu-childs div{
+    width: 90px;
+    margin-right: 25px;
+}
+
+/*table各个td的比例*/
+.rep-tableTit >div:nth-child(1) , .rep-tableList-row > div:nth-child(1){
+    width: 10.6%;
+}
+.rep-tableTit >div:nth-child(2) , .rep-tableList-row > div:nth-child(2){
+    width: 13.8%;
+}
+.rep-tableTit >div:nth-child(3) , .rep-tableList-row > div:nth-child(3){
+    width: 13.8%;
+}
+.rep-tableTit >div:nth-child(4) , .rep-tableList-row > div:nth-child(4){
+    width: 15%;
+}
+.rep-tableTit >div:nth-child(5) , .rep-tableList-row > div:nth-child(5){
+    width: 10.3%;
+}
+.rep-tableTit >div:nth-child(6) , .rep-tableList-row > div:nth-child(6){
+    width: 28.4%;
+}
+.rep-tableTit >div:nth-child(7) , .rep-tableList-row > div:nth-child(7){
+    width: 8.1%;
+}

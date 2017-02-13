@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="修改模版窗口" transform="translate(-264.000000, -176.000000)">
+            <g id="Group-8" transform="translate(264.000000, 176.000000)">
+                <path d="M16,32 C24.836556,32 32,24.836556 32,16 C32,7.163444 24.836556,0 16,0 C7.163444,0 0,7.163444 0,16 C0,24.836556 7.163444,32 16,32 Z" id="Oval-2" fill="#FFFFFF" opacity="0.149999991"></path>
+                <g id="Group" transform="translate(9.600000, 9.600000)" fill="#C6C8C9">
+                    <path d="M0,9.84533766 L0,12.4800087 L2.63467099,12.4800087 L10.2613247,4.78400649 L7.62665368,2.14933549 L0,9.84533766 L0,9.84533766 Z M12.2719805,2.77333333 C12.5493052,2.49600866 12.5493052,2.08000432 12.2719805,1.80266233 L10.6773117,0.207993503 C10.399987,-0.0693311678 9.98398267,-0.0693311678 9.70664068,0.207993503 L8.45864502,1.45598917 L11.093316,4.09066016 L12.2719805,2.77333333 L12.2719805,2.77333333 Z M6.23999566,11.0933333 L4.85333766,12.4799913 L13.8666667,12.4799913 L13.8666667,11.0933333 L6.23999566,11.0933333 L6.23999566,11.0933333 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

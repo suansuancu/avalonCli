@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="26px" viewBox="0 0 22 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>编辑 (2)</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.2953881,0.0156691028 L3.3937311,0.0156691028 C1.52837072,0.0156691028 0.00848664315,1.53559098 0.00848664315,3.40091356 L0.00848664315,14.5930381 C0.00848664315,16.4583984 1.52840852,17.9782825 3.3937311,17.9782825 L10.095155,17.9782825 C11.9605154,17.9782825 13.4803994,16.4583606 13.4803994,14.5930381 L13.4803994,7.20071825 L6.2953125,0.0156313004 L6.2953881,0.0156691028 Z M10.0951739,14.5930381 L3.39375,14.5930381 L3.39375,13.4876386 L10.0951739,13.4876386 L10.0951739,14.5930381 L10.0951739,14.5930381 Z M10.0951739,11.3822203 L3.39375,11.3822203 L3.39375,10.2768208 L10.0951739,10.2768208 L10.0951739,11.3822203 L10.0951739,11.3822203 Z M6.15723916,6.78621472 L6.15723916,2.29555192 L10.647902,6.78621472 L6.15723916,6.78621472 L6.15723916,6.78621472 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.09 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="域名管理" transform="translate(-1117.000000, -344.000000)">
+            <g id="Group-6" transform="translate(210.000000, 275.000000)">
+                <g id="icon" transform="translate(907.000000, 72.000000)">
+                    <g id="编辑-(2)" transform="translate(4.000000, 1.000000)">
+                        <g id="Group" transform="translate(0.064264, 0.003024)">
+                            <g id="Shape">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#8B9199" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

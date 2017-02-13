@@ -1,0 +1,82 @@
+.search-btn{
+    float: right;
+    margin-right: 30px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+.bd-list-table {
+    min-height: 586px;
+    padding-bottom: 30px;
+}
+.bd-table-page {
+    padding-bottom: 30px;
+}
+
+.bd-list-table tr td, .bd-list-table tr th {
+    padding-right: 2%;
+}
+.bd-list-table tr th:nth-child(1){
+    width: 6%;
+    padding-right: 0;
+}
+.bd-list-table tbody tr td:nth-child(1){
+    width: 6%;
+    padding-right: 0;
+}
+.bd-list-table tbody tr td:nth-child(2){
+    width: 11%;
+    max-width: 149px;
+}
+.bd-list-table tbody tr td:nth-child(3){
+    width: 9%;
+    max-width: 126px;
+}
+.bd-list-table tbody tr td:nth-child(4){
+    width: 12%;
+    max-width: 170px;
+}
+.bd-list-table tbody tr td:nth-child(5){
+    width: 23%;
+    max-width: 318px;
+}
+.bd-list-table tbody tr th:nth-child(6){
+    width: 12%;
+    max-width: 170px;
+    padding-right: 0;
+}
+.bd-list-table tbody tr td:nth-child(6){
+    width: 12%;
+    max-width: 170px;
+    padding-right: 0;
+}
+
+.bd-search-items .time {
+    min-width: 305px;
+}
+.bd-search-items .commonPut > span{
+    margin-left: 0;
+    display: inline-block;
+    height: 40px;
+    min-width: 51px;
+    padding-left: 20px;
+}
+.bd-search-items .commonPut >.blank-mid{
+    transform: translate(-20px,0);
+    -webkit-transform: translate(-20px,0);
+    -ms-transform: translate(-20px,0);
+    -moz-transform: translate(-20px,0);
+    -o-transform: translate(-20px,0);
+}
+.bd-search-items #select-type{
+    padding-left: 0px;
+}
+.bd-search-items .commonPut img{
+    margin-right: 0px;
+}
+.bd-search-items .commonPut ul{
+     transform: translate(0,0);
+     -webkit-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+}

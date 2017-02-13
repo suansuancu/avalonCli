@@ -1,0 +1,295 @@
+.bd-query-detail {
+    position: relative;
+    min-height: 630px;
+    border-radius: 8px;
+    background-color: #0d1f29;
+    box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.29);
+}
+
+.bd-report-search .domain-search, .bd-report-search .isp-search, .bd-report-search .area-search {
+    margin-left: 0px;
+}
+
+.bd-content-button > .right {
+    width: 100%;
+    padding-right: 0px;
+}
+
+.bd-report-search .domain-search {
+    margin-left: 74px;
+}
+
+.bd-report-search em {
+    margin-right: 5px;
+}
+
+.bd-report-search .show-arrow {
+    position: static;
+    top: 0;
+    right: 0;
+    float: none;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+
+#bd-ReqCount-graph {
+    width: 100%;
+    height: 420px;
+    color: #cbe3ff;
+    margin: 30px 0px 56px 0;
+}
+
+#bd-ReqCount-graph > .left {
+    width: 79.3%;
+    height: 420px;
+    float: left;
+}
+
+#bd-ReqCount-graph > .right {
+    width: 20.7%;
+    height: 420px;
+    float: right;
+    position: relative;
+    text-align: center;
+}
+
+#bd-ReqCount-graph > .right > span {
+    display: inline-block;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    position: relative;
+}
+
+#bd-ReqCount-graph .right ul {
+
+    margin-bottom: 36px;
+    letter-spacing: 1.9px;
+    text-align: left;
+}
+
+#bd-ReqCount-graph > .right ul li {
+    line-height: 29px;
+    height: 29px;
+    font-size: 12px;
+}
+
+#bd-ReqCount-graph > .right ul li:nth-child(2) {
+    color: #00b1ff;
+    font-size: 15px;
+}
+
+#bd-ReqCount-graph > .right ul:nth-child(1) {
+    margin-top: 14px;
+}
+
+.bd-report-mid {
+    display: none;
+    height: 40px;
+    background-color: #061826;
+    width: 100%;
+}
+
+#ispPercent {
+    display: none;
+    height: 381px;
+    margin: 59px 55px 77px 68px;
+}
+
+#ispPieCont {
+    height: 100%;
+}
+
+#ispPercent > div, #areaIspPercent > div {
+    width: 100%;
+    height: 100%;
+}
+
+/* area部分 */
+#areaPercent {
+    display: none;
+    height: 1078px;
+}
+
+#areaPercent > .tit {
+    margin: 67px 0 0 68px;
+}
+
+#areaIspPercent {
+    display: none;
+    height: 424px;
+}
+
+#areaIspPercent .tit {
+    height: 104px;
+    line-height: 104px;
+
+}
+
+#areaIspPercent .tit span {
+    margin-left: 68px;
+}
+
+#areaPieCont {
+    height: 193px;
+    margin-left: 198px;
+    margin-right: 229px;
+}
+
+/* ispArea部分 */
+#ispAreaTable {
+    margin: 0 109px 35px;
+    height: 285px;
+}
+
+#ispAreaTable > .left, #ispAreaTable > .right, #areaTable > .left, #areaTable > .right {
+    width: 50%;
+    height: 100%;
+}
+
+#ispAreaTable > .left, #areaTable > .left {
+    float: left;
+}
+
+#ispAreaTable > .right, #areaTable > .right {
+    float: right;
+}
+
+.dataDetail > div > .left, .dataDetail > div > .right {
+    width: 50%;
+    display: inline-block;
+}
+
+.dataDetail > div > .left {
+    float: left;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.dataDetail > div > .right {
+    float: right;
+}
+
+#areaPercent .up {
+    height: 193px;
+    margin-top: -10px;
+}
+
+#areaPercent .mid {
+    height: 400px;
+    margin: 39px 82px 86px;
+}
+
+#areaPercent .down {
+    height: 285px;
+    margin: 0px 108px 97px;
+}
+
+#barCont {
+    height: 400px;
+
+}
+
+/* 重置bd-table-list的样式 */
+.bd-list-table {
+    min-height: 0px;
+    padding-bottom: 0px;
+}
+
+.bd-nav-menu {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.bd-nav-menu .nav-menu-childs div {
+    width: 90px;
+    margin-right: 25px;
+}
+
+.bd-query-detail > .bd-list-table {
+    height: 0px;
+    max-height: 525px;
+}
+
+.for-table-mask {
+    background-color: rgba(4, 26, 40, 0.94);
+}
+
+.right > .rep-tableTit div:last-child {
+    position: relative;
+}
+
+.borderL {
+    border-left: 0;
+}
+.table-hasmore{
+    right: 0;
+}
+
+/* 重写表格宽度百分比 */
+#ispTable .rep-tableTit div:nth-child(1), #ispTable .rep-tableList .rep-tableList-row div:nth-child(1) {
+    margin-left: 9%;
+    width: 10%;
+}
+
+#ispTable .rep-tableTit div:nth-child(2), #ispTable .rep-tableList .rep-tableList-row div:nth-child(2) {
+    margin-left: 4%;
+    width: 10%;
+}
+
+#ispTable .rep-tableTit div:nth-child(3), #ispTable .rep-tableList .rep-tableList-row div:nth-child(3) {
+    margin-left: 4%;
+    width: 28%;
+    text-align: right;
+}
+
+#ispTable .rep-tableTit div:nth-child(4), #ispTable .rep-tableList .rep-tableList-row div:nth-child(4) {
+    margin-left: 12%;
+    width: 10%;
+    text-align: right;
+}
+#areaTable .bd-list-table .rep-tableTit div:nth-child(1), #areaTable .bd-list-table .rep-tableList .rowStyle div:nth-child(1),
+.bd-pop-areaTable .rep-tableTit div:nth-child(1), .bd-pop-areaTable .rep-tableList-row div:nth-child(1) {
+    margin-left: 4%;
+    width: 12%;
+    text-align: center;
+}
+#areaTable .bd-list-table .rep-tableTit div:nth-child(2), #areaTable .bd-list-table .rep-tableList .rowStyle div:nth-child(2),
+.bd-pop-areaTable .rep-tableTit div:nth-child(2), .bd-pop-areaTable .rep-tableList-row div:nth-child(2) {
+    margin-left: 3%;
+    width: 12%;
+    text-align: center;
+}
+#areaTable .bd-list-table .rep-tableTit div:nth-child(3), #areaTable .bd-list-table .rep-tableList .rowStyle div:nth-child(3),
+.bd-pop-areaTable .rep-tableTit div:nth-child(3), .bd-pop-areaTable .rep-tableList-row div:nth-child(3) {
+    margin-left: 4%;
+    width: 30%;
+    text-align: right;
+}
+#areaTable .bd-list-table .rep-tableTit div:nth-child(4), #areaTable .bd-list-table .rep-tableList .rowStyle div:nth-child(4),
+.bd-pop-areaTable .rep-tableTit div:nth-child(4), .bd-pop-areaTable .rep-tableList-row div:nth-child(4) {
+    margin-left: 12%;
+    width: 12%;
+    text-align: right;
+}
+#ispAreaTable .bd-list-table .rep-tableTit div:nth-child(1), #ispAreaTable .bd-list-table .rep-tableList .rowStyle div:nth-child(1),
+.bd-pop-ispAreaTable .rep-tableTit div:nth-child(1), .bd-pop-ispAreaTable .rep-tableList-row div:nth-child(1) {
+    margin-left: 8%;
+    width: 12%;
+    text-align: center;
+}
+#ispAreaTable .bd-list-table .rep-tableTit div:nth-child(2), #ispAreaTable .bd-list-table .rep-tableList .rowStyle div:nth-child(2),
+.bd-pop-ispAreaTable .rep-tableTit div:nth-child(2), .bd-pop-ispAreaTable .rep-tableList-row div:nth-child(2) {
+    margin-left: 6%;
+    width: 20%;
+    text-align: center;
+}
+#ispAreaTable .bd-list-table .rep-tableTit div:nth-child(3), #ispAreaTable .bd-list-table .rep-tableList .rowStyle div:nth-child(3),
+.bd-pop-ispAreaTable .rep-tableTit div:nth-child(3), .bd-pop-ispAreaTable .rep-tableList-row div:nth-child(3) {
+    margin-left: 9%;
+    width: 30%;
+    text-align: right;
+}

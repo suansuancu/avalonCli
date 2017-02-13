@@ -1,0 +1,78 @@
+.search-btn{
+    float: right;
+    margin-right: 30px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+.bd-list-table {
+    min-height: 586px;
+    padding-bottom: 30px;
+}
+.bd-search-items .time {
+    min-width: 237px;
+}
+.bd-table-page {
+    padding-bottom: 30px;
+}
+.bd-fileflush-form {
+    width: 74.4%;
+    margin: 94px auto;
+    color: #8b9199;
+    font-size: 11px;
+    opacity: 0.85;
+}
+.bd-fileflush-form .urlText{
+    height: 200px;
+    margin: 13px 0;
+    width: 100%;
+    outline: none;
+    border-color:#3a505e;
+    background-color: transparent;
+    border-radius: 6px;
+}
+.bd-fileflush-form .warning{
+    display: block;
+}
+.help-block {
+    margin-bottom: 10px;
+}
+
+.bd-list-table tr td, .bd-list-table tr th {
+    padding-right: 2%;
+}
+.bd-list-table tr th:nth-child(1){
+    width: 6%;
+    padding-right: 0;
+    text-align: center;
+}
+.bd-list-table tbody tr td:nth-child(1){
+    width: 6%;
+    padding-right: 0;
+    text-align: center;
+}
+.bd-list-table tbody tr td:nth-child(2){
+    width: 19%;
+    max-width: 242px;
+}
+.bd-list-table tbody tr td:nth-child(3){
+    width: 17%;
+    max-width: 221px;
+}
+.bd-list-table tbody tr td:nth-child(4){
+    width: 9%;
+    max-width: 114px;
+}
+.bd-list-table tbody tr td:nth-child(5){
+    width: 9%;
+    max-width: 114px;
+}
+.bd-list-table tr th:nth-child(6){
+    width: 9%;
+    max-width: 114px;
+    padding-right: 0;
+}
+.bd-list-table tbody tr td:nth-child(6){
+    width: 9%;
+    max-width: 114px;
+    padding-right: 0;
+}

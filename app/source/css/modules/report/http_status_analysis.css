@@ -1,0 +1,219 @@
+.bd-query-detail {
+    position: relative;
+    min-height: 630px;
+    border-radius: 8px;
+    background-color: #0d1f29;
+    box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.29);
+}
+#http-status-graph{
+    height: 428px;
+    margin: 30px 50px;
+    /*margin-bottom: 45px;*/
+    background-color: #051c2b;
+}
+.bd-httocode-mid{
+    height: 40px;
+    background-color: #071F2E;
+    width: 100%;
+}
+#http-status-table{
+
+    margin: 0px 50px;
+    border-radius: 4px;
+}
+#http-status-table > .list-items{
+    border: solid 1px #153245;
+}
+#http-status-table td , #showTableAll td{
+    text-align: center;
+}
+.bd-report-search .domain-search, .bd-report-search .isp-search, .bd-report-search .area-search{
+    margin-left: 0px;
+}
+.bd-content-button > .right {
+    width: 100%;
+    padding-right: 0px;
+}
+.bd-report-search .domain-search{
+    margin-left: 74px;
+}
+.bd-report-search em{
+    margin-right:5px;
+}
+.show-tableMore{
+    float: right;
+    right: 20px;
+    top: 18px;
+    position: relative;
+}
+.moreClose{
+    float: right;
+    right: 20px;
+    top: 17px;
+    position: relative;
+}
+#showTableAll{
+    width: 80%;
+    display: none;
+    height: 575px;
+    border-radius: 4px;
+    z-index: 100;
+    background-color: #041C2B;
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    margin-left: 60px;
+    margin-top: -278px;
+}
+
+.bd-list-table i{
+    font-style: normal;
+}
+
+/*重写表格修改为div*/
+
+.bd-list-table .list-items-row > div ,.list-item-tit div{
+    width: 15%;
+    float: left;
+}
+.bd-list-table .list-items-row , .bd-list-table .list-item-tit ,.bd-list-table .list-items{
+    display: block;
+}
+.bd-list-table .list-item-tit{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: solid 1px #153245;
+    border-bottom: 0;
+    background-color: #051c2a;
+}
+.bd-list-table .list-item-tit >div:first-child{
+    border-right: solid 1px #153245;
+}
+.bd-list-table .list-items-row{
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    color: #a2b0b7;
+}
+.bd-list-table .list-items-row >div:first-child{
+    border-right: solid 1px #153245;
+    height: 47px;
+}
+.bd-report-mid{
+    display: none;
+    height: 40px;
+    background-color: #061826;
+    width: 100%;
+}
+
+#showTableAll .list-items{
+    height: 525px;
+    width: 100%;
+    overflow-y: scroll;
+    border: solid 1px #153245;
+}
+.bd-list-table .list-items-row:nth-child(odd) {
+    background-color: #09202E;
+}
+.bd-list-table .list-items-row:nth-child(even){
+    background-color: #041C2B;;
+}
+.bd-list-table .list-items-row:hover{
+    background-color: #092435;
+}
+.for-table-mask {
+    background-color: rgba(4,26,40,0.94);
+}
+#bd-http-status-table{
+    display: none;
+    padding-top: 57px;
+    padding-bottom: 50px;
+}
+
+.bd-report-search .show-arrow{
+    right: 5px;
+}
+.bd-report-search .show-arrow {
+    position: static;
+    top: 0;
+    right: 0;
+    float: none;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+#bd-http-status-table .bd-list-table{
+    min-height: 0px;
+    padding-bottom: 0px;
+}
+.bd-list-table div span.left{
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
+.bd-list-table div span.right{
+    width: 70%;
+    max-width: 70px;
+    display: inline-block;
+    text-align: left;
+}
+.morespan , .closespan{
+    height: 50px;
+    width: 40px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    float: right;
+}
+.bd-nav-menu {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.bd-nav-menu .nav-menu-childs div{
+    width: 90px;
+    margin-right: 25px;
+}
+
+/* 重写表格列宽百分比 */
+#http-status-table .list-item-tit div:nth-child(2), #http-status-table .list-items .list-items-row >div:nth-child(2),
+.bd-pop-httpTable .list-item-tit div:nth-child(2), .bd-pop-httpTable .list-items .list-items-row >div:nth-child(2) {
+    margin-left: 1%;
+    width: 11%;
+    text-align: right;
+}
+#http-status-table .list-item-tit div:nth-child(3), #http-status-table .list-items .list-items-row >div:nth-child(3),
+.bd-pop-httpTable .list-item-tit div:nth-child(3), .bd-pop-httpTable .list-items .list-items-row >div:nth-child(3) {
+    margin-left: 1.7%;
+    width: 9%;
+    text-align: right;
+}
+#http-status-table .list-item-tit div:nth-child(4), #http-status-table .list-items .list-items-row >div:nth-child(4),
+.bd-pop-httpTable .list-item-tit div:nth-child(4), .bd-pop-httpTable .list-items .list-items-row >div:nth-child(4) {
+    margin-left: 1.7%;
+    width: 9%;
+    text-align: right;
+}
+#http-status-table .list-item-tit div:nth-child(5), #http-status-table .list-items .list-items-row >div:nth-child(5),
+.bd-pop-httpTable .list-item-tit div:nth-child(5), .bd-pop-httpTable .list-items .list-items-row >div:nth-child(5) {
+    margin-left: 1.7%;
+    width: 11%;
+    text-align: right;
+}
+#http-status-table .list-item-tit div:nth-child(6), #http-status-table .list-items .list-items-row >div:nth-child(6),
+.bd-pop-httpTable .list-item-tit div:nth-child(6), .bd-pop-httpTable .list-items .list-items-row >div:nth-child(6) {
+    margin-left: 1.7%;
+    width: 11%;
+    text-align: right;
+}
+#http-status-table .list-item-tit div:nth-child(7), #http-status-table .list-items .list-items-row >div:nth-child(7),
+.bd-pop-httpTable .list-item-tit div:nth-child(7), .bd-pop-httpTable .list-items .list-items-row >div:nth-child(7) {
+    margin-left: 2.5%;
+    width: 10%;
+    text-align: right;
+}
+#http-status-table .list-item-tit div:nth-child(8), #http-status-table .list-items .list-items-row >div:nth-child(8),
+.bd-pop-httpTable .list-item-tit div:nth-child(8), .bd-pop-httpTable .list-items .list-items-row >div:nth-child(8) {
+    margin-left: 2.2%;
+    width: 7%;
+    text-align: right;
+}

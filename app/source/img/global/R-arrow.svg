@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="内容_文件刷新_展开搜索" transform="translate(-1255.000000, -176.000000)" fill="#8B9199">
+            <g id="展开" transform="translate(445.000000, 161.000000)">
+                <g id="收起" transform="translate(797.092172, 5.000000)">
+                    <path d="M17.1159045,13.3078721 L20.3040259,10.6511043 C21.7859652,9.41615486 22.9873144,9.99534418 22.9873144,11.9028883 L22.9873144,19.1850033 C22.9873144,21.1112939 21.7978202,21.6816159 20.3040259,20.4367874 L17.1159045,17.7800195 C15.6339652,16.5450701 15.6221102,14.5527007 17.1159045,13.3078721 Z" id="Triangle" transform="translate(19.493657, 15.548449) rotate(-180.000000) translate(-19.493657, -15.548449) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
