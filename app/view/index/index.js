@@ -1,10 +1,14 @@
 import 'avalon2';
 import 'mmRouter';
 import './route.config.js';
-var login = require("../../html/login.html");
-var home = require("../../html/home.html");
-var header = require("../../html/header.html");
-var nav = require("../../html/nav.html");
+
+let login = require("../../html/login.html");
+let home = require("../../html/home.html");
+let header = require("../../html/header.html");
+let nav = require("../../html/nav.html");
+let subnav = require("../../html/subnav.html");
+let apiUser = require("../../html/apiUser.html");
+
 
 let vm = avalon.define({
   $id: "test",
@@ -12,14 +16,14 @@ let vm = avalon.define({
   currentPath: ''
 });
 
-var map = {
+let map = {
   'login': login,
   'home': home
 }
 
 
 avalon.router.add("/:tab", function (param) {
-  console.log(param)
+
   vm.main = map[param];
 })
 
@@ -33,13 +37,21 @@ avalon.component('ms-nav', {
   template: nav
 
 });
+avalon.component('ms-subnav', {
+  template: subnav
+
+});
+avalon.component('ms-apiuser', {
+  template: apiUser
+
+});
 
 avalon.history.start({
   root: "/",
   html5: true
 });
 
-var hash = location.hash.replace(/#!?/, '')
+let hash = location.hash.replace(/#!?/, '')
 avalon.router.navigate(hash || '/login', 1)//默认打开
 avalon.scan(document.body);
 
