@@ -1,19 +1,28 @@
 # avalon-webpack-start
-[![Coverage Status](https://travis-ci.org/sayll/avalon-webpack-start.svg?branch=master)](https://travis-ci.org/sayll/avalon-webpack-start)  [![Coverage Status](https://coveralls.io/repos/github/sayll/avalon-webpack-start/badge.svg)](https://coveralls.io/github/sayll/avalon-webpack-start)
+分为两部分：
+1.主要是重写cs系统的思路说明和介绍
+2.原版的介绍avalon-cli脚手架的相关
 
-## 介绍
+##重写cs系统的思路说明和介绍
+1.根目录下index.html中引用<div ms-html="@main"></div>，引用各种页面的模板
+2.在index.js中使用路由，将@main的页面的赋给login和home
+3.从login切换到home页的条件是点击login.html页面中的登录箭头按钮，并设置href，即<a class="btn-arrow" id="login-btn" href="#!/home"></a>
+4.切换到home页面，home页的模板引用了三个组件和一个模板变量，头部，主导航，子导航的组件分别在index.js中已经注册，模板变量在vm中也已经声明，在home.html中使用,即<div ms-html="@mainContent"></div>
+5.index.js中设置路由，将文件刷新和接口用户的路由分别对应到相应的组件，即将vm中声明的主体部分的模板变量mainContent赋上对应的文件刷新和接口用户的值
+6.在nav导航中，给内容管理和基础管理链接上设置对应的href，点击内容管理跳转到文件刷新界面，点击基础管理跳转到接口用户界面上
+
+*todo
+a,index.html中没有引入index.js，确可以直接找到index.js的文件，还有对应的文件必须新建到对应的文件夹下，应该是有地方配置了，但是我还没有找到
+b,所有的路由配置应该可以放到一个文件中，引入即可，目前还没有做
+c,子导航的路由还没有做
+d,状态相关还没做
+
+
+## 介绍avalon-cli脚手架
 
 这个一个以webpack2为基础的脚手架正式版，一个多资源统筹的脚手架。</br>
 本项目使用[`avalon2`](https://github.com/RubyLouvre/avalon)作为演示框架。</br>
 为兼容低版本浏览器，我也是强烈推荐一下它。市面上应该也算唯一能够支持到IE8以下的MVVM框架了吧。
-
-## 致各位,亲
-
-* 请各位看客老爷不要吝啬自己的**Star**，先右上角**Star**一下呗。
-* 右上角**Star**。
-* 右上角**Star**。
-
-### <a href="https://segmentfault.com/a/1190000008249713"><img src='http://imgsrc.baidu.com/forum/w%3D580/sign=ee4b8d37a964034f0fcdc20e9fc17980/28381f30e924b8990cb13ad26c061d950b7bf64f.jpg' height='160'></a>
 
 ### 关于【Webpack】
 1. 服务端使用Koa。需要注意的是，只有一个目的那就是提供了`webpack-dev-middleware` 和 `webpack-hot-middleware`（代码热替换）。使用自定义的Koa程序替换[webpack-dev-server](https://github.com/webpack/webpack-dev-server)，让它更容易实现universal 渲染和为了不使这个包过于庞大。
