@@ -4,7 +4,7 @@
 2.原版的介绍avalon-cli脚手架的相关
 
 ##一 ，重写cs系统的思路说明和介绍
-1.根目录下index.html中引用<div ms-html="@main"></div>，引用各种页面的模板</br>
+1.根目录下index.html中引用<code><div ms-html="@main"></div></code>，引用各种页面的模板</br>
 2.在index.js中使用路由，将@main的页面的赋给login和home</br>
 3.从login切换到home页的条件是点击login.html页面中的登录箭头按钮，并设置href，即<a class="btn-arrow" id="login-btn" href="#!/home"></a> </br>
 4.切换到home页面，home页的模板引用了三个组件和一个模板变量，头部，主导航，子导航的组件分别在index.js中已经注册，模板变量在vm中也已经声明，在home.html中使用,即<div ms-html="@mainContent"></div></br>
