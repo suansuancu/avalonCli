@@ -1,6 +1,7 @@
 import 'avalon2';
 import 'mmRouter';
-import './route.config.js';
+import './route.config'
+
 
 let login = require("../../html/login.html");
 let home = require("../../html/home.html");
@@ -8,12 +9,13 @@ let header = require("../../html/header.html");
 let nav = require("../../html/nav.html");
 let subnav = require("../../html/subnav.html");
 let apiUser = require("../../html/apiUser.html");
-
+let fileflush = require("../../html/fileflush.html");
 
 let vm = avalon.define({
   $id: "test",
   main: '',
-  currentPath: ''
+  currentPath: '',
+  mainContent:''
 });
 
 let map = {
@@ -21,18 +23,29 @@ let map = {
   'home': home
 }
 
-
+//整体改变页面的内容，从login页面整个变为home页面
 avalon.router.add("/:tab", function (param) {
 
   vm.main = map[param];
+
 })
 
-//注册组件
+
+//改变mainContent的内容为文件刷新的部分
+avalon.router.add("/content/fileflush", function (param) {
+
+  vm.mainContent = fileflush;
+})
+avalon.router.add("/ucenter/api_user", function (param) {
+
+  vm.mainContent = apiUser;
+})
+
+//注册组件 ***注意组件的名称不能大写如:ms-subNav，会报错
 avalon.component('ms-header', {
   template: header
 
 });
-
 avalon.component('ms-nav', {
   template: nav
 
@@ -41,10 +54,8 @@ avalon.component('ms-subnav', {
   template: subnav
 
 });
-avalon.component('ms-apiuser', {
-  template: apiUser
 
-});
+
 
 avalon.history.start({
   root: "/",
