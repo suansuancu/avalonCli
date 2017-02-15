@@ -3,7 +3,7 @@
 1.主要是重写cs系统的思路说明和介绍
 2.原版的介绍avalon-cli脚手架的相关
 
-##重写cs系统的思路说明和介绍
+##一 ，重写cs系统的思路说明和介绍
 1.根目录下index.html中引用<div ms-html="@main"></div>，引用各种页面的模板
 2.在index.js中使用路由，将@main的页面的赋给login和home
 3.从login切换到home页的条件是点击login.html页面中的登录箭头按钮，并设置href，即<a class="btn-arrow" id="login-btn" href="#!/home"></a>
@@ -18,7 +18,7 @@ c,子导航的路由还没有做
 d,状态相关还没做
 
 
-## 介绍avalon-cli脚手架
+## 二，介绍avalon-cli脚手架
 
 这个一个以webpack2为基础的脚手架正式版，一个多资源统筹的脚手架。</br>
 本项目使用[`avalon2`](https://github.com/RubyLouvre/avalon)作为演示框架。</br>
