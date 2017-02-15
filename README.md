@@ -1,4 +1,4 @@
-# avalon-webpack-start
+# avalon-webpack
 分为两部分：
 1.主要是重写cs系统的思路说明和介绍。</br>
 2.原版的介绍avalon-cli脚手架的相关
